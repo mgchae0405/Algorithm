@@ -34,5 +34,7 @@ def dijkstra(graph, start):
                 heapq.heappush(queue, [distance, adjacent])
     return print(dist)
 
+
+
 if __name__ =='__main__':
     dijkstra(graph, 'A')

@@ -11,6 +11,7 @@ heapq.heappush(queue, [3,'E'])
 # 트리구조 형태이기 때문에 헷갈릴 수 있다.
 print(queue)
 
+
 #sorting되어있는 데이터 확인
 for _ in range(len(queue)):
     print(heapq.heappop(queue))
